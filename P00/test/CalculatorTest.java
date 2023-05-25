@@ -8,27 +8,7 @@ import org.junit.Test;
 
 public class CalculatorTest {
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-	}
-
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	@After
-	public void tearDown() throws Exception {
-	}
-
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
 	public void testAdd() {
 		//fail("Not yet implemented");
 		int a = 1234;
@@ -40,7 +20,8 @@ public class CalculatorTest {
 		int expected = 9999;
 		assertEquals (expected, actual);
 	}
-	
+
+	@Test
 	public void testSubtract() {
 		int a = 9876;
 		int b = 4321;
@@ -52,6 +33,7 @@ public class CalculatorTest {
 		assertEquals (actual, expected);
 	}
 	
+	@Test
 	public void testMultiple() {
 		int a = 9876;
 		int b = 4321;
@@ -63,6 +45,7 @@ public class CalculatorTest {
 		assertEquals (actual, expected);
 	}
 	
+	@Test
 	public void testDevide() {
 		int a = 9876;
 		int b = 4321;
