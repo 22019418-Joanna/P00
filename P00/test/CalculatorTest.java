@@ -35,25 +35,25 @@ public class CalculatorTest {
 	
 	@Test
 	public void testMultiple() {
-		int a = 9876;
-		int b = 4321;
+		int a = 101;
+		int b = 11;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.multiple(a, b);
 		
-		int expected = 5555;
+		int expected = 1111;
 		assertEquals (actual, expected);
 	}
 	
 	@Test
 	public void testDevide() {
-		int a = 9876;
-		int b = 4321;
+		int a = 275;
+		int b = 11;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.devide(a, b);
 		
-		int expected = 5555;
+		int expected = 25;
 		assertEquals (actual, expected);
 	}
 }
